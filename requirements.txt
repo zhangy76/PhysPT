@@ -1,0 +1,9 @@
+torch
+torchvision
+numpy
+trimesh
+opencv-python
+tqdm
+smplx
+ultralytics
+pyqtgraph
