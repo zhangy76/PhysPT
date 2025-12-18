@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ```
 
 ## Model and Data Download
-Please download the required data and trained model [assets](https://www.dropbox.com/scl/fo/x9yor045ztrcv6rav4pz2/AMDO2krghJF_spnxNc5d9nE?rlkey=epj0vkwoafyp48rz7lp5im1o0&dl=0) and directly overwrite the ./assets folder in the current directory. (please also download the checkpoint [CLIFF](https://www.dropbox.com/scl/fi/1zyefhokc2seull2un8bt/hr48-PA43.0_MJE69.0_MVE81.2_3dpw.pt?rlkey=0hidvwxdi7g7770it04ncalyh&dl=0) and put it under ./models/cliff_hr48 used for generating kinematics-based motion estimates)
+Please download the required data and trained model [assets](https://www.dropbox.com/scl/fo/x9yor045ztrcv6rav4pz2/AMDO2krghJF_spnxNc5d9nE?rlkey=epj0vkwoafyp48rz7lp5im1o0&dl=0)  (due to license restrictions, please download SMPL and SMPL-H model from the [official website](https://smpl-x.is.tue.mpg.de/) and store them as ./assets/data/smpl/neutral.pkl; ./assets/data/smplh/female.npz; ./assets/data/smplh/male.npz; ./assets/data/smplh/neutral.npz) and directly overwrite the ./assets folder in the current directory. (please also download the checkpoint [CLIFF](https://www.dropbox.com/scl/fi/1zyefhokc2seull2un8bt/hr48-PA43.0_MJE69.0_MVE81.2_3dpw.pt?rlkey=0hidvwxdi7g7770it04ncalyh&dl=0) and put it under ./models/cliff_hr48 used for generating kinematics-based motion estimates)
 
 
 ## Evaluation on a Video
